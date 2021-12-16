@@ -36,4 +36,9 @@ public class HelloController {
     public void changeBlue(Event e){
         background.setBackground(new Background(new BackgroundFill(Color.BLUE, CornerRadii.EMPTY, null)));
     }
+
+    @FXML
+    public void close(Event e){
+        System.exit(0);
+    }
 }

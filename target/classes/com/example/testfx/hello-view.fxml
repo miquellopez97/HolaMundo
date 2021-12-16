@@ -21,6 +21,7 @@
                   </Button>
                   <Button mnemonicParsing="false" onMouseClicked="#changeGreen" text="Green" />
                   <Button mnemonicParsing="false" onMouseClicked="#changeBlue" text="Blue" />
+                  <Button mnemonicParsing="false" onMouseClicked="#close" text="Close" />
                </children>
             </VBox>
          </children>
