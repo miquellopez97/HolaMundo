@@ -3,7 +3,6 @@
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.shape.*?>
 
 <BorderPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testfx.HelloController">
    <center>
@@ -14,12 +13,14 @@
          <children>
             <VBox alignment="CENTER" prefHeight="285.0" prefWidth="323.0" spacing="40.0">
                <children>
-                  <Button mnemonicParsing="false" onMouseClicked="#changeBG" text="Boton">
+                  <Button mnemonicParsing="false" onMouseClicked="#changeYellow" text="Yellow" />
+                  <Button mnemonicParsing="false" onMouseClicked="#changeRed" text="Red">
                      <VBox.margin>
                         <Insets top="20.0" />
                      </VBox.margin>
                   </Button>
-                  <Circle fx:id="circle" fill="DODGERBLUE" onMouseClicked="#changeBG" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Button mnemonicParsing="false" onMouseClicked="#changeGreen" text="Green" />
+                  <Button mnemonicParsing="false" onMouseClicked="#changeBlue" text="Blue" />
                </children>
             </VBox>
          </children>
